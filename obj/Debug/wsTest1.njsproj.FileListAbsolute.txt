@@ -1,0 +1,2 @@
+T:\code_proj\experimental\wsTest1\obj\Debug\wsTest1.njsproj.CoreCompileInputs.cache
+T:\code_proj\experimental\wsTest1\bin\Microsoft.NodejsTools.WebRole.dll
