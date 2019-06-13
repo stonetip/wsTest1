@@ -28,7 +28,19 @@ let appInstance = wss.on('connection', function connection(ws) {
 
 	ws.on('message', function incoming(message) {
 		console.log('received: %s', message);
+
+		//const jsonObj = JSON.parse(message);
+
+		//const replyText = `You sent '${jsonObj.sending}'`;
+
+		//const replyJsonObj = { reply: replyText };
+
+		//const jsonString = JSON.stringify(replyJsonObj);
+
+		//ws.send(jsonString);
+
+		ws.send(`You sent ${message}`);
 	});
 
-	ws.send('something');
+
 });
